@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">UPI-DI-Serayu-Android-App</string>
+    <string name="upi_di_serayu">UPI D.I. SERAYU</string>
+    <string name="developed">Developed by Codelamps\n Andre Rizaldi Brillianto</string>
 </resources>

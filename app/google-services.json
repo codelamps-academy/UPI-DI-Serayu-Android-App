@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "202534202383",
+    "project_id": "upi-di-serayu-login-register",
+    "storage_bucket": "upi-di-serayu-login-register.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202534202383:android:aa93593c7416810e35477a",
+        "android_client_info": {
+          "package_name": "com.codelamps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202534202383-fnkff22vhkge1mpciempdl9k0oku88u2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQngZK8K6arNvsal_3w9e5CXUfdIFLNZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202534202383-fnkff22vhkge1mpciempdl9k0oku88u2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202534202383:android:ace391b2c1a483c235477a",
+        "android_client_info": {
+          "package_name": "com.codelamps.biotikpedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202534202383-fnkff22vhkge1mpciempdl9k0oku88u2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQngZK8K6arNvsal_3w9e5CXUfdIFLNZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202534202383-fnkff22vhkge1mpciempdl9k0oku88u2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

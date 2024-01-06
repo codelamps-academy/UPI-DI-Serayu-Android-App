@@ -7,9 +7,14 @@ import android.text.TextUtils
 import android.util.Log
 import android.widget.ProgressBar
 import android.widget.Toast
-import androidx.core.view.isGone
-import androidx.core.view.isVisible
 import com.codelamps.databinding.ActivityRegistrasiBinding
+
+//import com.google.firebase.auth.FirebaseAuth
+
+//import com.google.firebase.auth.FirebaseAuth
+//import com.google.firebase.auth.ktx.auth
+//import com.google.firebase.ktx.Firebase
+
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.auth
@@ -42,25 +47,26 @@ class RegistrasiActivity : AppCompatActivity() {
             val email = binding.email.text.toString()
             val password = binding.password.text.toString()
 
-            if (TextUtils.isEmpty(email)) {
-                Toast.makeText(this, "Email tidak boleh kosong", Toast.LENGTH_LONG).show()
-            }
-
-            if (TextUtils.isEmpty(fullname)) {
-                Toast.makeText(this, "Nama tidak boleh kosong", Toast.LENGTH_LONG).show()
-            }
-
-            if (TextUtils.isEmpty(password)) {
-                Toast.makeText(this, "Password tidak boleh kosong", Toast.LENGTH_LONG).show()
-            }
+//            if (TextUtils.isEmpty(email)) {
+//                Toast.makeText(this, "Email tidak boleh kosong", Toast.LENGTH_LONG).show()
+//            }
+//
+//            if (TextUtils.isEmpty(fullname)) {
+//                Toast.makeText(this, "Nama tidak boleh kosong", Toast.LENGTH_LONG).show()
+//            }
+//
+//            if (TextUtils.isEmpty(password)) {
+//                Toast.makeText(this, "Password tidak boleh kosong", Toast.LENGTH_LONG).show()
+//            }
 
 
             auth.createUserWithEmailAndPassword(email, password)
-                .addOnCompleteListener() { task ->
+                .addOnCompleteListener(this) { task ->
 //                    progressBar.isGone
                     if (task.isSuccessful) {
                         Toast.makeText(this, "Account Created", Toast.LENGTH_LONG).show()
-
+                        val intent = Intent(this, LoginActivity::class.java)
+                        startActivity(intent)
                     } else {
                         // If sign in fails, display a message to the user.
                         Log.w("register", "createUserWithEmail:failure", task.exception)

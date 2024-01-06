@@ -23,7 +23,7 @@
         android:id="@+id/logo_pupr_start_activity"
         android:layout_width="318dp"
         android:layout_height="258dp"
-        android:src="@mipmap/ic_launcher_foreground"
+        android:src="@drawable/pupr"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/upi_di_serayu_start_activity"/>

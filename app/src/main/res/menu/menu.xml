@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/home_fragment"
+        android:icon="@drawable/baseline_home_24"/>
+
+    <item android:title="Keluhan"
+        android:id="@+id/keluhan_fragment"
+        android:icon="@drawable/baseline_mic_24"/>
+
+    <item android:title="Notification"
+        android:id="@+id/notification_fragment"
+        android:icon="@drawable/baseline_notifications_24"/>
+
+    <item android:title="Profile"
+        android:id="@+id/profile_fragment"
+        android:icon="@drawable/baseline_person_24"/>
+</menu>
